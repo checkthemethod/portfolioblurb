@@ -11,29 +11,56 @@
 </head>
 <body>
 
+<!-- facebook plugin script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=199568293393862";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end facebook plugin script -->
+
+
+
+<!-- info blurb -->
 	<div class="btn-more-info"><span class="glyphicon glyphicon-info-sign"></span></div>
 	<div class="info">
 		<p>Tired of coming up with a unique description of who you are and what you do? Look no further. With the Portfolio Blurb Generator &#8482;, you'll be looking internet-savvy, hip, relevant, and modern in no time.</p>
 	</div>
+
+<!--end info blurb -->
 <div class="col-xs-offset-2 col-xs-8">
 
 	<h1>Portfolio Blurb Generator &#8482;</h1>
+	<!-- generator form -->
 	<div class="initial-form">
-	
-	<input class="input-name input-lg" placeholder="Please enter your name"/><br/>
-	<input class="input-city input-lg" placeholder="Please enter your city"/><br/>
-	<input class="btn-submit btn btn-primary" type="submit" value="Generate">
+		<input class="input-name input-lg" placeholder="Please enter your name"/><br/>
+		<input class="input-city input-lg" placeholder="Please enter your city"/><br/>
+		<input class="btn-submit btn btn-primary" type="submit" value="Generate">
 	</div>
+	<!-- end generator form -->
+
+	<!-- result blurb -->
 	<div class="result">
 		<div class="result-container">
-			
-		<p><span class="greeting">Hello</span>!</p>
-		<p>My name is <span class="user"></span>! I am a <span class="product"></span> <span class="position"></span>  currently living in <span class="city"></span>.</p>
-
+			<p><span class="greeting">Hello</span>!</p>
+			<p>My name is <span class="user"></span>! I am a <span class="product"></span> <span class="position"></span>  currently living in <span class="city"></span>.</p>
 		</div>
 		<input class="btn-submit btn btn-primary" type="submit" value="Generate Again">
 		<input class="btn-reset btn btn-primary" type="submit" value="Reset">
 	</div>
+	<!-- end result blurb -->
+
+<!-- twitter plugin script -->
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.checkthemethod.com/portfolioblurb" data-via="checkthemethod" data-hashtags="webdeveloper">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- end twitter plugin script -->
+
+<!-- facebook plugin  -->
+<div class="fb-like" data-href="https://www.checkthemethod.com/portfolioblurb" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+<!-- end facebook plugin  -->
 
 </div>
 
