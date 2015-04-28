@@ -70,3 +70,8 @@
 	input {
 		color: #000;
 	}
+
+	.fb_iframe_widget {
+		top: -5px;
+		left: 10px;
+	}
